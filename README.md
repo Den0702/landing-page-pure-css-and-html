@@ -15,7 +15,7 @@ Strona jest responsywna - jest dostosowana zarówno jak dla urządzeń mobilnych
 - Zewnętrzne zasoby:  
     [Font Awesome](https://use.fontawesome.com/releases/v5.0.7/css/all.css)  
     [Normalize CSS](https://github.com/kristerkari/normalize.scss/blob/master/_normalize.scss)
-- Projekt graficzny:  
+- Projekt i zasoby graficzne:  
     https://akademia108.pl/
     
 

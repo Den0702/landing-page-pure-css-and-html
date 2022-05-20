@@ -1,14 +1,10 @@
-/* Base styles */
+/*************** Base styles ******************/
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;;
-}
-
-section {
-  padding: 120px 0;
 }
 
 h1, h2 {
@@ -24,10 +20,15 @@ hr {
   border-bottom: none;
 }
 
-/* Utility styles*/
+
+/***************Sitewide *****************/
 .container {
   max-width: 1170px;
   margin: auto;
+}
+
+section {
+  padding: 120px 0;
 }
 
 .btn {
@@ -48,7 +49,19 @@ hr {
   color: #fff;
 }
 
-/* Header styles*/
+.section-header {
+  margin-bottom: 75px;
+}
+
+.section-header h2 {
+  text-align: center;
+  font-size: 1.9em;
+  font-weight: 400;
+  color: #333;
+}
+
+
+/*************Main header styles**************/
 .main-header {
   background-color: #f2f1ed;
   background-image: url("../img/header.jpg");
@@ -77,19 +90,8 @@ hr {
   font-size: 1.3em;
 }
 
-.section-header {
-  margin-bottom: 75px;
-}
 
-.section-header h2 {
-  text-align: center;
-  font-size: 1.9em;
-  font-weight: 400;
-  color: #333;
-}
-
-
-/* Main menu styles */
+/************* Main menu styles *************/
 nav.menu {
   background-color:#007bff;
   /* margin: auto; */
@@ -99,6 +101,7 @@ nav.menu {
 nav.menu label {
   text-transform: uppercase;
 }
+
 .menu ul {
   margin: 0;/* Dlaczego margin auto nie dodaje margin po lewej i prawej,
   a gore i dol?  - bo blokowy element ul nie ma ograniczonej
@@ -135,6 +138,9 @@ li.menu-item a:hover {
 input[id="drop-nav"] {
   display: none;
 } 
+
+
+/**********Sections**************/
 /* About section styles */
 .about {
   text-align: center;
@@ -152,7 +158,6 @@ input[id="drop-nav"] {
   border-radius: 50%;
 }
 
-
 /* Portfolio section styles */
 #portfolio {
   background-color: #f2f1ed;
@@ -161,6 +166,7 @@ input[id="drop-nav"] {
 .portfolio-images {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 5em 0; 
 }
 
@@ -238,14 +244,14 @@ input[id="drop-nav"] {
   color: #777;
 }
 
-/* Footer styles */
+/*********** Footer styles ************/
 footer {
   padding: 10px;
   background-color: #f2f1ed;
   text-align: center;
 }
 
-/* Responsive styles */
+/************* Responsive styles **************/
 @media screen and (max-width: 479px) {
   .container {
     max-width: 95%;

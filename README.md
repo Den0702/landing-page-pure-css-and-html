@@ -1,7 +1,7 @@
 # landing-page-pure-css-and-html
 
 ## Brief 
-A static website project written in pure HTML and css
+A static website project written in pure HTML and CSS (even the "hamburger" menu is handled with CSS)
 
 ## Page's features
 The site is responsive - it adapts to mobile devices, devices with medium resolution and also desktops

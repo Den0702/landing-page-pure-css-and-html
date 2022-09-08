@@ -1,21 +1,21 @@
 # landing-page-pure-css-and-html
 
-## Opis 
-Projekt statycznej strony napisany na czystym css oraz html
+## Brief 
+A static website project written in pure HTML and css
 
-## Cechy strony
-Strona jest responsywna - jest dostosowana zarówno jak dla urządzeń mobilnych, urządzeń o średniej rozdzielczości jak i dla komputerów desktopowych
+## Page's features
+The site is responsive - it adapts to mobile devices, devices with medium resolution and also desktops
  
-## Demo strony
-[Kliknij, żeby zobaczyć demo](https://den0702.github.io/landing-page-pure-css-and-html/)
+## Demo of the page
+[Click to see the demo](https://den0702.github.io/landing-page-pure-css-and-html/)
 
-## Źródła
-- Czcionki:  
-    [Rodzina fontów - Open Sans](https://fonts.google.com/specimen/Open+Sans)  
-- Zewnętrzne zasoby:  
+## References
+- Fonts:  
+    [Fonts family - Open Sans](https://fonts.google.com/specimen/Open+Sans)  
+- External resources:  
     [Font Awesome](https://use.fontawesome.com/releases/v5.0.7/css/all.css)  
     [Normalize CSS](https://github.com/kristerkari/normalize.scss/blob/master/_normalize.scss)
-- Projekt i zasoby graficzne:  
+- Graphic project and assets:  
     https://akademia108.pl/
     
 
